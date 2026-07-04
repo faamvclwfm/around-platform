@@ -1,0 +1,33 @@
+[debug] [2026-07-04T18:43:48.682Z] ----------------------------------------------------------------------
+[debug] [2026-07-04T18:43:48.686Z] Command:       /usr/local/Cellar/node/25.4.0/bin/node /usr/local/bin/firebase init
+[debug] [2026-07-04T18:43:48.686Z] CLI Version:   15.22.4
+[debug] [2026-07-04T18:43:48.687Z] Platform:      darwin
+[debug] [2026-07-04T18:43:48.687Z] Node Version:  v25.4.0
+[debug] [2026-07-04T18:43:48.687Z] Detected Agent: unknown
+[debug] [2026-07-04T18:43:48.687Z] Time:          Sat Jul 04 2026 21:43:48 GMT+0300 (Eastern European Summer Time)
+[debug] [2026-07-04T18:43:48.687Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mac/around-platform
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-07-04T18:43:54.423Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-04T18:43:54.423Z] > authorizing via signed-in user (arsenfedchyk123@gmail.com)
+[debug] [2026-07-04T18:43:54.425Z] Checked if tokens are valid: true, expires at: 1783193796124
+[debug] [2026-07-04T18:43:54.425Z] Checked if tokens are valid: true, expires at: 1783193796124
+[debug] [2026-07-04T18:43:54.427Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2026-07-04T18:43:55.028Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-07-04T18:43:55.029Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
