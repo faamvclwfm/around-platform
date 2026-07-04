@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { doc, getDoc } from 'firebase/firestore';
 import { db } from '../config/firebase';
-import allTests from '../data/questionsData';
+import { allTests } from '../data/questionsData';
 
 function renderLatex(text) {
   if (!text || typeof text !== 'string') return text || '';
